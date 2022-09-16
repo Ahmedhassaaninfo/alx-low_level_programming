@@ -16,7 +16,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	for (n = 0; n > 0; n++)
+	while (n > 0)
 	{
 	if (n > 0)
 	{
