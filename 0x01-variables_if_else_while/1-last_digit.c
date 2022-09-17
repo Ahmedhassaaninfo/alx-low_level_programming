@@ -1,32 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
-* main - print if the number is positive, zero, or negative
-* Description: using the main function
-* this program prints 'programming is positive, zero, or negative
-* Return: 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int n;
-	int l;
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	l = n % 10;
-
-	if (l > 5)
-	{
-		printf("Last digit of %d and is greater than 5\n", n, l);
-	}
-	else if (1 == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, l);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
-	}
-	return (0);
+	printf("Size of a char: %lu byte(s)\n", (unsigned longsizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long in: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeo(f));
+	return (0);	
 }
+
