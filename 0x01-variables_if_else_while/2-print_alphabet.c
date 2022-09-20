@@ -12,7 +12,7 @@ int main(void)
 	while(lower >= 'a')
 		putchar(lower);
 	--lower;
-	purtchar('\n');
+	putchar('\n');
 
 	return (0);
 }
